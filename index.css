@@ -1,0 +1,140 @@
+
+h1{
+    color: green;
+}
+
+
+
+body{
+    background-color: white;
+
+    /*
+    -> color name
+        color:red;
+    -> html5 names
+        color: coral;
+    -> hexadecimal values
+        color: #00ff00 #f3f3f3
+    -> RGB (red green blue)
+        0'dan 255'e kadar toplam 256 renk formatı şeklinde ilerler.
+        color: rgb(0,0,255)
+        color: rgb(34,58,110)
+    
+    */
+
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    line-height: 1.5em;
+    /* 16 px = 1 em */
+    margin:0px;
+
+}
+
+.container{
+    width: 400px;
+    margin: auto;    
+}
+
+.box-1{
+    
+    background-color: black;
+    color:#fff;
+    /*
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    */
+    border: 5px red solid;
+
+    border-width: 3px;
+    border-bottom-width: 10px;
+
+    padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 20px;
+    margin: 20px;
+
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px black;
+
+}
+
+.myform{
+    padding: 20px;
+}
+
+.myform .form-group{
+    padding-bottom: 15px;
+}
+
+.myform label{
+    display: contents;
+    color: burlywood;
+}
+
+.myform input[type="text"]{
+    width: 40%;
+    padding: 8px;
+}
+
+.myform input[type="submit"]{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+    border:none;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+

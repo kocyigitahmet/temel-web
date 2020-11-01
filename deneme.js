@@ -1,1 +1,0 @@
-//merhaba bu deneme dosyasıdır.

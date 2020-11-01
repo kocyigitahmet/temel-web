@@ -1,3 +1,5 @@
+//merhaba burası yeni kaynakça alanıdır. tuğçe ve hazal ekledi
+
 // var, let, const(ant) 
 //var ve let standart değişken tanımlamak için kullanılır.
 //const sabit değerli değişkenler için kullanılır.
